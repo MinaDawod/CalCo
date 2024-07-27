@@ -12,9 +12,9 @@
 ## 📱 App Previews
 
 ### 🏠 Home Screen
-![Home Screen](path_to_your_home_screen_gif.gif)
+![Home Screen](Gif/CalCoRecord-ezgif.com-video-to-gif-converter.gif)
 
-## ❓ Why SimpleCalc?
+## ❓ Why CalCo App?
 
 - **🛠️ Ease of Use**: No complex features, just a straightforward calculator that does the job.
 - **📘 Educational**: Perfect for beginners to explore and learn Swift programming through a real-world application.
@@ -47,4 +47,4 @@ CalCo is released under the MIT License. See [LICENSE](LICENSE) for more details
 
 ---
 
-Download SimpleCalc today and start calculating with confidence! 🚀
+Download CalCo today and start calculating with confidence! 🚀
