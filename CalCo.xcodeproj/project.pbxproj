@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		922185DC2C552A5A003C8518 /* CalculatorBrainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB4F092C01F9C400DC6835 /* CalculatorBrainManager.swift */; };
+		922185DE2C552E4B003C8518 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922185DD2C552E4B003C8518 /* Controller.swift */; };
 		92CB4ED42C01CA8000DC6835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB4ED32C01CA8000DC6835 /* AppDelegate.swift */; };
 		92CB4ED62C01CA8000DC6835 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB4ED52C01CA8000DC6835 /* SceneDelegate.swift */; };
 		92CB4ED82C01CA8000DC6835 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB4ED72C01CA8000DC6835 /* ViewController.swift */; };
@@ -16,6 +18,14 @@
 		92CB4EEB2C01CA8100DC6835 /* CalCoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB4EEA2C01CA8100DC6835 /* CalCoTests.swift */; };
 		92CB4EF52C01CA8100DC6835 /* CalCoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB4EF42C01CA8100DC6835 /* CalCoUITests.swift */; };
 		92CB4EF72C01CA8100DC6835 /* CalCoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB4EF62C01CA8100DC6835 /* CalCoUITestsLaunchTests.swift */; };
+		92CB4F082C01D50000DC6835 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB4F072C01D50000DC6835 /* CustomButton.swift */; };
+		92CB4F0A2C01F9C400DC6835 /* CalculatorBrainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB4F092C01F9C400DC6835 /* CalculatorBrainManager.swift */; };
+		92CB4F242C06AF1D00DC6835 /* submitSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92CB4F232C06AF1D00DC6835 /* submitSound.wav */; };
+		92CB4F252C06AF1D00DC6835 /* submitSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92CB4F232C06AF1D00DC6835 /* submitSound.wav */; };
+		92CB4F302C06B55900DC6835 /* ClearSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92CB4F2F2C06B55900DC6835 /* ClearSound.wav */; };
+		92CB4F312C06B55900DC6835 /* ClearSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92CB4F2F2C06B55900DC6835 /* ClearSound.wav */; };
+		92CB4F332C06B58300DC6835 /* NumberSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92CB4F322C06B58300DC6835 /* NumberSound.wav */; };
+		92CB4F342C06B58300DC6835 /* NumberSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92CB4F322C06B58300DC6835 /* NumberSound.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		922185DD2C552E4B003C8518 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		92CB4ED02C01CA8000DC6835 /* CalCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CB4ED32C01CA8000DC6835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92CB4ED52C01CA8000DC6835 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		92CB4EF02C01CA8100DC6835 /* CalCoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalCoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CB4EF42C01CA8100DC6835 /* CalCoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalCoUITests.swift; sourceTree = "<group>"; };
 		92CB4EF62C01CA8100DC6835 /* CalCoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalCoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92CB4F072C01D50000DC6835 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		92CB4F092C01F9C400DC6835 /* CalculatorBrainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrainManager.swift; sourceTree = "<group>"; };
+		92CB4F232C06AF1D00DC6835 /* submitSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = submitSound.wav; path = CalCoUITests/submitSound.wav; sourceTree = SOURCE_ROOT; };
+		92CB4F2F2C06B55900DC6835 /* ClearSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ClearSound.wav; path = CalCoUITests/ClearSound.wav; sourceTree = SOURCE_ROOT; };
+		92CB4F322C06B58300DC6835 /* NumberSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = NumberSound.wav; path = CalCoUITests/NumberSound.wav; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		922185DB2C552A35003C8518 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				92CB4F092C01F9C400DC6835 /* CalculatorBrainManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		92CB4EC72C01CA8000DC6835 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +123,11 @@
 		92CB4ED22C01CA8000DC6835 /* CalCo */ = {
 			isa = PBXGroup;
 			children = (
-				92CB4ED32C01CA8000DC6835 /* AppDelegate.swift */,
-				92CB4ED52C01CA8000DC6835 /* SceneDelegate.swift */,
-				92CB4ED72C01CA8000DC6835 /* ViewController.swift */,
-				92CB4ED92C01CA8000DC6835 /* Main.storyboard */,
+				92CB4F062C01D4D100DC6835 /* Components */,
+				92CB4F032C01D19900DC6835 /* App */,
+				922185DB2C552A35003C8518 /* Managers */,
+				92CB4F042C01D1A400DC6835 /* Controller */,
+				92CB4F052C01D1AE00DC6835 /* View */,
 				92CB4EDC2C01CA8100DC6835 /* Assets.xcassets */,
 				92CB4EDE2C01CA8100DC6835 /* LaunchScreen.storyboard */,
 				92CB4EE12C01CA8100DC6835 /* Info.plist */,
@@ -123,8 +148,45 @@
 			children = (
 				92CB4EF42C01CA8100DC6835 /* CalCoUITests.swift */,
 				92CB4EF62C01CA8100DC6835 /* CalCoUITestsLaunchTests.swift */,
+				92CB4F232C06AF1D00DC6835 /* submitSound.wav */,
+				92CB4F2F2C06B55900DC6835 /* ClearSound.wav */,
+				92CB4F322C06B58300DC6835 /* NumberSound.wav */,
 			);
 			path = CalCoUITests;
+			sourceTree = "<group>";
+		};
+		92CB4F032C01D19900DC6835 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				92CB4ED32C01CA8000DC6835 /* AppDelegate.swift */,
+				92CB4ED52C01CA8000DC6835 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		92CB4F042C01D1A400DC6835 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				922185DD2C552E4B003C8518 /* Controller.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92CB4F052C01D1AE00DC6835 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92CB4ED72C01CA8000DC6835 /* ViewController.swift */,
+				92CB4ED92C01CA8000DC6835 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92CB4F062C01D4D100DC6835 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				92CB4F072C01D50000DC6835 /* CustomButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +293,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CB4F332C06B58300DC6835 /* NumberSound.wav in Resources */,
+				92CB4F242C06AF1D00DC6835 /* submitSound.wav in Resources */,
 				92CB4EDD2C01CA8100DC6835 /* Assets.xcassets in Resources */,
 				92CB4EE02C01CA8100DC6835 /* Base in Resources */,
+				92CB4F302C06B55900DC6835 /* ClearSound.wav in Resources */,
 				92CB4EDB2C01CA8000DC6835 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +313,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CB4F342C06B58300DC6835 /* NumberSound.wav in Resources */,
+				92CB4F312C06B55900DC6835 /* ClearSound.wav in Resources */,
+				92CB4F252C06AF1D00DC6835 /* submitSound.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +326,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CB4F082C01D50000DC6835 /* CustomButton.swift in Sources */,
 				92CB4ED82C01CA8000DC6835 /* ViewController.swift in Sources */,
 				92CB4ED42C01CA8000DC6835 /* AppDelegate.swift in Sources */,
+				922185DE2C552E4B003C8518 /* Controller.swift in Sources */,
+				92CB4F0A2C01F9C400DC6835 /* CalculatorBrainManager.swift in Sources */,
 				92CB4ED62C01CA8000DC6835 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +349,7 @@
 			files = (
 				92CB4EF52C01CA8100DC6835 /* CalCoUITests.swift in Sources */,
 				92CB4EF72C01CA8100DC6835 /* CalCoUITestsLaunchTests.swift in Sources */,
+				922185DC2C552A5A003C8518 /* CalculatorBrainManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +497,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -440,6 +512,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9UAF3Q638J;
@@ -448,8 +521,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +542,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9UAF3Q638J;
@@ -476,8 +551,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
