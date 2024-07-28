@@ -14,12 +14,13 @@ class CalculatorBrainManager {
         case subtract = "-"
         case multiply = "*"
         case divide = "/"
+        case percent = "%"
     }
     
     private let operators = Operator.allCases.map({ $0.rawValue })
     
     func addOperator(currentInput: String, operatorSign: String) -> String? {
-        if let lastChar = currentInput.last, operators.contains(String(lastChar)) {
+        if let lastChar = currentInput.last, operators.contains(String(lastChar)) || (operatorSign == "." && currentInput.contains(".")) {
             return nil
         }
         return operatorSign
@@ -65,7 +66,8 @@ class CalculatorBrainManager {
         
         let precedence: [String: Int] = [
             "+": 1, "-": 1,
-            "*": 2, "/": 2
+            "*": 2, "/": 2,
+            "%": 2
         ]
         
         for token in tokens {
@@ -102,6 +104,8 @@ class CalculatorBrainManager {
                     stack.append(a * b)
                 case "/":
                     stack.append(a / b)
+                case "%":
+                    stack.append(a * (b / 100.0))
                 default:
                     fatalError("Unknown operator: \(token)")
                 }
@@ -109,5 +113,12 @@ class CalculatorBrainManager {
         }
         
         return stack.last ?? 0
+    }
+    
+    func calculatePercentage(_ input: String) -> String {
+        if let value = Double(input) {
+            return formatResult(value / 100.0)
+        }
+        return "0"
     }
 }

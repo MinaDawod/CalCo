@@ -18,4 +18,8 @@ class Controller {
     func calculateResult(userInput: String) -> String {
         return brain.calculate(userInput: userInput)
     }
+    
+    func calculatePercentage(userInput: String) -> String {
+        return brain.calculatePercentage(userInput)
+    }
 }
